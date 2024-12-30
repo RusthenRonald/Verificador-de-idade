@@ -17,15 +17,19 @@ else{
         genero='Homem'
         if (idade>=0 && idade <10){
             //bebe
+            img.setAttribute('src','img/bebe h.png')
         }
         else if(idade>=10 && idade <30){
             //jovem
+            img.setAttribute('src','img/jovem h.png')
         }
         else if (idade>=30 && idade <50){
             //adulto
+            img.setAttribute('src','img/homem_adulto.png')
         }
         else{
             //idoso
+            img.setAttribute('src','img/idoso.png')
         }
     }
     //se for feminino
