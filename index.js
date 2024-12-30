@@ -16,6 +16,7 @@ else{
     else{
         genero='Mulher'
     }
+    res.style.textAlign='center'
     res.innerHTML=`Identificado ${genero} com idade ${idade}`
 }
 }
