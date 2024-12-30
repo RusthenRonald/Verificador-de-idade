@@ -3,6 +3,4 @@ section{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
     border-radius: 10px;
     padding: 10px;
-    display: flex;
-    justify-content: center;
 }
