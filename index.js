@@ -4,7 +4,7 @@ var nasc = document.getElementById('txtano')
 var res = document.getElementById('res')
 var fsex = document.getElementsByName('fsex')
 //validação
-if (nasc.value.length==0){
+if (nasc.value.length==0 || nasc.value>ano_atual){
     window.alert('Dados inválidos!')
 }
 else{
