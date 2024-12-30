@@ -37,18 +37,26 @@ else{
         genero='Mulher'
         if (idade>=0 && idade <10){
             //bebe
+            img.setAttribute('src','img/bebe m.png')
         }
         else if(idade>=10 && idade <30){
             //jovem
+            img.setAttribute('src','img/jovem m.png')
         }
         else if (idade>=30 && idade <50){
             //adulto
+            img.setAttribute('src','img/mulher_adulta.png')
         }
         else{
             //idoso
+            img.setAttribute('src','img/idosa.png')
         }
     }
     res.style.textAlign='center'
     res.innerHTML=`Identificado ${genero} com idade ${idade}`
+    img.style.display='block'
+    img.style.margin = '0 auto';
+    res.appendChild(img)
+
 }
 }
