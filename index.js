@@ -9,6 +9,13 @@ if (nasc.value.length==0 || Number(nasc.value)>ano_atual){
 }
 else{
     var idade = ano_atual-Number(nasc.value)
-    res.innerHTML=idade
+    var genero=''
+    if (fsex[0].checked){
+        genero='Homem'
+    }
+    else{
+        genero='Mulher'
+    }
+    res.innerHTML=`Identificado ${genero} com idade ${idade}`
 }
 }
