@@ -1,0 +1,1 @@
+var ano_atual=new Date().getFullYear()
