@@ -1,6 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 131, 219);
+}
 section{
+    background-color: white;
     width: 500px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    color: white;
+}
+footer p {
+    color: white;
 }
